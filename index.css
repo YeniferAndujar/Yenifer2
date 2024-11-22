@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    text-decoration: none;
+}
+
+body{
+    background-image: url(fondo2.jpg);
+}
+
+header{
+    padding: 25px;
+    background-color: pink;
+}
+
+h1{
+    color: rgb(66, 19, 35);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+strong{
+    color: rgb(255, 25, 82);
+}
+
+nav{
+    background-color: black;
+    padding:10px;
+}
+
+ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+li{
+    font-size: 25px;
+    color: white;
+    background-color: rgb(63, 12, 50);
+    padding: 10px;
+    border-radius: 5px;
+}
